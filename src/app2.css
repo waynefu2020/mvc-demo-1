@@ -1,0 +1,22 @@
+#app2{
+}
+#app2 .navBar{
+  display: flex;
+}
+#app2 .navBar > li{
+  border: 1px solid grey;
+  width: 50%;
+}
+#app2 .navBar > li.selected{
+  background: rgb(253, 221, 155);
+  color: white;
+}
+#app2 .contentBar{
+
+}
+#app2 .contentBar > li{
+  display: none;
+}
+#app2 .contentBar > li.active{
+  display: block;
+}
